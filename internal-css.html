@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Css</title>
+    <style>
+        /* penerapan menggunakan universal selector */
+        
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        h1 {
+            color: green;
+        }
+        
+        p {
+            color: cadetblue;
+        }
+        
+        .bg-kuning {
+            background-color: chartreuse;
+        }
+        
+        .bg-biru {
+            background-color: blue;
+        }
+        
+        #margin {
+            margin: 20px;
+        }
+        
+        #padding {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Internal Css</h1>
+    <a href="index.html">Kembali Ke Index</a>
+
+    <hr>
+
+    <!-- color -->
+    <div>
+        <h1>Color</h1>
+        <p>Menambah Color dengan internal CSS</p>
+    </div>
+
+    <!-- baground -->
+
+    <div class="bg-kuning">
+        <h1>Baground</h1>
+        <p>menambahkan baground dengan cara internal css</p>
+    </div>
+
+    <!-- border -->
+    <div class="bg-biru">
+        <h1>Border</h1>
+        <p>Menambah border dengan cara internal css</p>
+    </div>
+
+    <!-- margin -->
+    <div id="margin" class="bg-kuning">
+        <h1>Penerapan Margin</h1>
+        <p>penerapan margin dengan cara internal css</p>
+    </div>
+
+    <!-- padding -->
+    <div id="padding" class="bg-kuning">
+        <h1>Pernerapan padding</h1>
+        <p>Penerapan padding dengan cara internal css</p>
+    </div>
+</body>
+
+</html>
